@@ -1,0 +1,10 @@
+Pet roll call:
+===========
+cats:	2
+dogs:	5
+emus:	4
+fish:	3
+===========
+Total:	14
+
+ 

@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+<data>
+  <value type="dict" struct-name="db.workbench.Workbench">
+    <value type="string" key="_id">{CA964290-2DC6-448D-A6D5-B2332FA48FCA}</value>
+    <value type="dict" struct-name="db.mysql.Catalog" key="catalog">
+      <value type="string" key="_id">{2F75C4FE-27DB-49A4-89D4-3790CA540D15}</value>
+      <value type="list" content-type="string" content-struct-name="db.CharacterSet" key="characterSets" option="ref">
+        <value type="string">{43903B6E-F2D0-4529-9B67-E0717BF4EF9F}</value>
+        <value type="string">{3AC6FA9A-82A4-4F7A-98B9-1F12CFB202BF}</value>
+        <value type="string">{9D4131DD-68A4-40BC-9D3F-82B4F7FA17B1}</value>
+        <value type="string">{6ABFE754-D874-49FF-AC49-386F49B841AC}</value>
+        <value type="string">{E2E563B6-7240-4D2B-A665-CE22EBD29E9F}</value>
+        <value type="string">{AEFED982-F313-40D4-ABA9-11583190507F}</value>
+        <value type="string">{A4E5546A-E0F8-4601-9DC3-D39C7DE1FD72}</value>
+        <value type="string">{2F780E59-D0CF-4175-8473-C86D73B33ED6}</value>
+        <value type="string">{E986FF81-4A4E-4A5D-B792-8D70F05A1BDE}</value>
+        <value type="string">{41103BE4-2115-4129-A4F3-0EC70E1A7CA6}</value>
+        <value type="string">{9069C68C-56AA-40EA-9C14-1542D5226355}</value>
+        <value type="string">{A9BCA02E-A707-4832-A9A2-61F0A56F25C2}</value>
+        <value type="string">{091F9B2C-FC20-47D4-B7EC-E31EF07828FF}</value>
+        <value type="string">{FECE8C4D-B95C-4D06-B5E5-7C685B512607}</value>
+        <value type="string">{52DEA621-FBB4-4FC5-88C6-936CC3F53579}</value>
+        <value type="string">{FD0CE66F-4075-48FB-AF79-C75453274791}</value>
+        <value type="string">{AF1906F2-20B5-491C-8450-14F730DBECD8}</value>
+        <value type="string">{2BA9756D-C757-4770-B795-B1A4943359EC}</value>
+        <value type="string">{B5603A47-2936-4144-BA74-5D4B6959F47F}</value>
+        <value type="string">{A50D3C42-2BE0-49C7-A751-59ADDC334F01}</value>
+        <value type="string">{38416973-B84F-48DF-A766-01022A48B7CB}</value>
+        <value type="string">{FEDC8872-11CC-47CA-810A-6CCC2FAC6624}</value>
+        <value type="string">{B37E43B5-C83C-49A6-81FD-21424E22A0CC}</value>
+        <value type="string">{69774387-87EB-4929-95F7-666E7081C341}</value>
+        <value type="string">{EFA25F7E-F252-4083-A7E7-0E0B51D2C7A6}</value>
+        <value type="string">{82133B64-E91A-4EAB-96E7-5211E354E818}</value>
+        <value type="string">{3006DAE4-DDE9-4979-B982-8284D885ED2A}</value>
+        <value type="string">{6C8C05CC-8859-4974-B756-497697DB875F}</value>
+        <value type="string">{99441A25-E2A8-4B71-A311-AA46C216D6A9}</value>
+        <value type="string">{B670A3DE-8FD2-4508-A437-4EE82D3F184A}</value>
+        <value type="string">{EF353851-0BAE-450A-8751-D96E58402C08}</value>
+        <value type="string">{25D735B3-3DBA-4EF7-95C9-B94E5A480D40}</value>
+        <value type="string">{F312E41B-8ECF-4B2D-B084-B22186F114AE}</value>
+        <value type="string">{7A92AB4C-BB3F-47B9-BC98-4F55CF8690A3}</value>
+        <value type="string">{3EE67D94-4290-4A37-A0A3-73E2602C2971}</value>
+        <value type="string">{EF2A81A5-CB47-46E3-9FC5-203D7DA8EA10}</value>
+      </value>
+      <value type="string" key="comment"></value>
+      <value type="string" key="defaultCharacterSetName"></value>
+      <value type="string" key="defaultCollationName"></value>
+      <value type="string" key="name">default</value>
+      <value type="string" key="oldName"></value>
+      <value type="string" key="owner" option="ref">{1572AAFB-EA8B-4227-B2F2-1932741E4753}</value>
+      <value type="list" content-type="dict" content-struct-name="db.mysql.Schema" key="schemata">
+        <value type="dict" struct-name="db.mysql.Schema">
+          <value type="string" key="_id">{AD037D1B-5883-4864-9E0F-5DE109426C88}</value>
+          <value type="string" key="comment"></value>
+          <value type="string" key="defaultCharacterSetName">latin1</value>
+          <value type="string" key="defaultCollationName"></value>
+          <value type="string" key="name">music</value>
+          <value type="string" key="oldName">music</value>
+          <value type="string" key="owner" option="ref">{28043764-757F-49E5-B38D-DCB6818EF80A}</value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.RoutineGroup" key="routineGroups"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Routine" key="routines"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Sequence" key="sequences"/>
+          <value type="string" key="sql"></value>
+          <value type="string" key="sqlCreate"></value>
+          <value type="string" key="sqlDrop"></value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.StructuredDatatype" key="structuredTypes"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Synonym" key="synonyms"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Table" key="tables">
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{746F5B4F-D6CC-4675-921A-9D604A0D091A}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{EA7072F4-2D9D-4FCE-A9EB-F2A5DD63830A}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">artist_id</value>
+                  <value type="string" key="oldName">artist_id</value>
+                  <value type="int" key="precision">5</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{8AD844BF-1BD0-46C2-A4A2-73D5816E8AC2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">album_id</value>
+                  <value type="string" key="oldName">album_id</value>
+                  <value type="int" key="precision">4</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B65CB1C2-25BD-4DFA-8DCF-BC563B19BD2A}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">128</value>
+                  <value type="string" key="name">album_name</value>
+                  <value type="string" key="oldName">album_name</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{E87222AF-8F98-4E0F-9BD5-D6EF96558C2A}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{EA7072F4-2D9D-4FCE-A9EB-F2A5DD63830A}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">artist_id</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{746F5B4F-D6CC-4675-921A-9D604A0D091A}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref"/>
+                  <value type="string" key="referedTable" option="ref"></value>
+                  <value type="string" key="referedTableName">artist</value>
+                  <value type="string" key="referedTableSchemaName">music</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">album</value>
+              <value type="string" key="oldName">album</value>
+              <value type="string" key="owner" option="ref">{AD037D1B-5883-4864-9E0F-5DE109426C88}</value>
+              <value type="dict" struct-name="db.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{BD62B5FC-847D-4E02-B487-F68F090FA176}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{EA7072F4-2D9D-4FCE-A9EB-F2A5DD63830A}</value>
+                  <value type="string">{8AD844BF-1BD0-46C2-A4A2-73D5816E8AC2}</value>
+                </value>
+                <value type="string" key="name">album_primary_key</value>
+                <value type="string" key="owner" option="ref">{746F5B4F-D6CC-4675-921A-9D604A0D091A}</value>
+              </value>
+              <value type="string" key="rowFormat">Fixed</value>
+              <value type="string" key="sql">CREATE TABLE `album` (
+  `artist_id` smallint(5) NOT NULL default '0',
+  `album_id` smallint(4) NOT NULL default '0',
+  `album_name` char(128) default NULL,
+  PRIMARY KEY  (`artist_id`,`album_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{A583F736-6F13-48E5-89AD-71A8FE29403A}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{EA0B2C49-0205-4267-842B-D2193828E4CF}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">artist_id</value>
+                  <value type="string" key="oldName">artist_id</value>
+                  <value type="int" key="precision">5</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{03CAAE10-FF2D-482A-BB57-5DE9A12D5ABE}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">128</value>
+                  <value type="string" key="name">artist_name</value>
+                  <value type="string" key="oldName">artist_name</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">artist</value>
+              <value type="string" key="oldName">artist</value>
+              <value type="string" key="owner" option="ref">{AD037D1B-5883-4864-9E0F-5DE109426C88}</value>
+              <value type="dict" struct-name="db.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{E70F66A4-D588-4E69-BBA9-F318D18FDFF9}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{EA0B2C49-0205-4267-842B-D2193828E4CF}</value>
+                </value>
+                <value type="string" key="name">artist_primary_key</value>
+                <value type="string" key="owner" option="ref">{A583F736-6F13-48E5-89AD-71A8FE29403A}</value>
+              </value>
+              <value type="string" key="rowFormat">Fixed</value>
+              <value type="string" key="sql">CREATE TABLE `artist` (
+  `artist_id` smallint(5) NOT NULL default '0',
+  `artist_name` char(128) default NULL,
+  PRIMARY KEY  (`artist_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{3539B3F9-E283-4392-8627-2436AE4EDFA5}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F1A529BF-58CA-4075-A22B-240597DA1566}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">artist_id</value>
+                  <value type="string" key="oldName">artist_id</value>
+                  <value type="int" key="precision">5</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{8CD412CA-6CE5-456B-989B-FE41C78690E2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">album_id</value>
+                  <value type="string" key="oldName">album_id</value>
+                  <value type="int" key="precision">4</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{23E0DAA0-1CF2-4293-8B69-640E764B8096}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">track_id</value>
+                  <value type="string" key="oldName">track_id</value>
+                  <value type="int" key="precision">3</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{7110C7CD-87ED-463D-AA1E-4D4BD3CDD99F}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">TIMESTAMP</value>
+                  <value type="string" key="defaultValue">'CURRENT_TIMESTAMP'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">played</value>
+                  <value type="string" key="oldName">played</value>
+                  <value type="string" key="simpleType" option="ref">{D8A1FD40-794F-464E-8E4A-E14C38D9C924}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{2106ACDF-54AC-4237-AE20-DFEF73E118AD}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{23E0DAA0-1CF2-4293-8B69-640E764B8096}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">track_id</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{3539B3F9-E283-4392-8627-2436AE4EDFA5}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref"/>
+                  <value type="string" key="referedTable" option="ref"></value>
+                  <value type="string" key="referedTableName">album</value>
+                  <value type="string" key="referedTableSchemaName">music</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">played</value>
+              <value type="string" key="oldName">played</value>
+              <value type="string" key="owner" option="ref">{AD037D1B-5883-4864-9E0F-5DE109426C88}</value>
+              <value type="dict" struct-name="db.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{2BF951C5-9E4E-4023-BBD8-04D8B5BEDF13}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{F1A529BF-58CA-4075-A22B-240597DA1566}</value>
+                  <value type="string">{8CD412CA-6CE5-456B-989B-FE41C78690E2}</value>
+                  <value type="string">{23E0DAA0-1CF2-4293-8B69-640E764B8096}</value>
+                  <value type="string">{7110C7CD-87ED-463D-AA1E-4D4BD3CDD99F}</value>
+                </value>
+                <value type="string" key="name">played_primary_key</value>
+                <value type="string" key="owner" option="ref">{3539B3F9-E283-4392-8627-2436AE4EDFA5}</value>
+              </value>
+              <value type="string" key="rowFormat">Fixed</value>
+              <value type="string" key="sql">CREATE TABLE `played` (
+  `artist_id` smallint(5) NOT NULL default '0',
+  `album_id` smallint(4) NOT NULL default '0',
+  `track_id` smallint(3) NOT NULL default '0',
+  `played` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`artist_id`,`album_id`,`track_id`,`played`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{77338269-6915-4B70-9BA1-AE0428329A70}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{64C204C0-11E8-4EE6-B59C-69933905F309}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">track_id</value>
+                  <value type="string" key="oldName">track_id</value>
+                  <value type="int" key="precision">3</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{6FD1EFB4-785B-4B0A-8303-384B0722B720}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">128</value>
+                  <value type="string" key="name">track_name</value>
+                  <value type="string" key="oldName">track_name</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{5453A497-099A-41B5-B193-A5CCDA268382}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">artist_id</value>
+                  <value type="string" key="oldName">artist_id</value>
+                  <value type="int" key="precision">5</value>
+                  <value type="int" key="scale">8</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{62772205-0EBF-4C1F-850C-186039EC6342}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue">'0'</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">album_id</value>
+                  <value type="string" key="oldName">album_id</value>
+                  <value type="int" key="precision">4</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{FC1F2F1E-A799-462E-AF2C-724F5C2DC5C7}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">TIME</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">time</value>
+                  <value type="string" key="oldName">time</value>
+                  <value type="string" key="simpleType" option="ref">{65642303-376E-4C4A-B200-7E0DFAA47344}</value>
+                  <value type="int" key="unsigned">0</value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{6316E502-AE3B-4DE3-879D-C4E126107394}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{62772205-0EBF-4C1F-850C-186039EC6342}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">album_id</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{77338269-6915-4B70-9BA1-AE0428329A70}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref"/>
+                  <value type="string" key="referedTable" option="ref"></value>
+                  <value type="string" key="referedTableName">album</value>
+                  <value type="string" key="referedTableSchemaName">music</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">track</value>
+              <value type="string" key="oldName">track</value>
+              <value type="string" key="owner" option="ref">{AD037D1B-5883-4864-9E0F-5DE109426C88}</value>
+              <value type="dict" struct-name="db.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{FD4D6FFA-6C5E-4FDB-A482-5615FF960F10}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{64C204C0-11E8-4EE6-B59C-69933905F309}</value>
+                  <value type="string">{5453A497-099A-41B5-B193-A5CCDA268382}</value>
+                  <value type="string">{62772205-0EBF-4C1F-850C-186039EC6342}</value>
+                </value>
+                <value type="string" key="name">track_primary_key</value>
+                <value type="string" key="owner" option="ref">{77338269-6915-4B70-9BA1-AE0428329A70}</value>
+              </value>
+              <value type="string" key="rowFormat">Fixed</value>
+              <value type="string" key="sql">CREATE TABLE `track` (
+  `track_id` smallint(3) NOT NULL default '0',
+  `track_name` char(128) default NULL,
+  `artist_id` smallint(5) NOT NULL default '0',
+  `album_id` smallint(4) NOT NULL default '0',
+  `time` time default NULL,
+  PRIMARY KEY  (`artist_id`,`album_id`,`track_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+          </value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.View" key="views"/>
+        </value>
+      </value>
+      <value type="list" content-type="string" content-struct-name="db.SimpleDatatype" key="simpleDatatypes" option="ref">
+        <value type="string">{3C75C19F-FCA4-44DE-8881-F477FEA32E62}</value>
+        <value type="string">{B98335A2-603F-4042-9D59-88248D987309}</value>
+        <value type="string">{A5A2A320-DAAD-416E-862C-FAA9AD90DF8C}</value>
+        <value type="string">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+        <value type="string">{B96B522A-48FE-431F-A0B4-D5E1B733FE3F}</value>
+        <value type="string">{BEA67203-20CC-4A53-A4EC-B2F31E84DE1E}</value>
+        <value type="string">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+        <value type="string">{8CB74E5F-921A-4F6E-95C6-3AD94F2BB36F}</value>
+        <value type="string">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+        <value type="string">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+        <value type="string">{4159AB8E-78E7-41E7-AAFD-0DE3766C2935}</value>
+        <value type="string">{CD41C6AA-4BAC-42E8-A4FC-655CAE3534D0}</value>
+        <value type="string">{B965148B-8E5B-46E9-999C-252D92B37B2C}</value>
+        <value type="string">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+        <value type="string">{7874D9C1-0F91-487C-822C-3ABC407452BE}</value>
+        <value type="string">{BFDB5048-852A-4985-8772-5123FB7C23FE}</value>
+        <value type="string">{D2A508F3-9636-400D-816E-68E0A172204C}</value>
+        <value type="string">{6A28850F-C54C-4722-80A0-6187798B35C0}</value>
+        <value type="string">{EBCCD9D0-1497-4EEE-97FC-0C96DB3D2EBE}</value>
+        <value type="string">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+        <value type="string">{9A2399C8-F3EA-4B6C-AAB1-830D3BFF164B}</value>
+        <value type="string">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+        <value type="string">{65642303-376E-4C4A-B200-7E0DFAA47344}</value>
+        <value type="string">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+        <value type="string">{D8A1FD40-794F-464E-8E4A-E14C38D9C924}</value>
+        <value type="string">{DC0345B1-52D4-497C-AFA1-17A00BCAA7FE}</value>
+        <value type="string">{739D4BC4-0188-46BB-84AB-DB97CE01B67F}</value>
+        <value type="string">{50C760E2-97A4-4BB0-ABA5-E0A2D11E683D}</value>
+        <value type="string">{86A060EB-F367-4890-8FFA-00840F281791}</value>
+        <value type="string">{04006513-2EA3-4785-A541-8C25E68E5E0A}</value>
+        <value type="string">{1D1FE4C9-6A0B-423C-A048-8830C430A93E}</value>
+        <value type="string">{E1609E12-9B2A-4EF7-9265-00D6D3BE0026}</value>
+        <value type="string">{855F4FED-94F7-4E28-812C-6882B28571AF}</value>
+        <value type="string">{F496575F-5F75-4825-A059-7DFC75DB3DFD}</value>
+        <value type="string">{D442887A-6402-4873-ADC5-6F875085C0A6}</value>
+        <value type="string">{D8F350D8-9522-478F-9233-28C52E26A067}</value>
+      </value>
+    </value>
+    <value type="dict" struct-name="db.workbench.Model" key="model">
+      <value type="string" key="_id">{E65AB6CB-5157-4496-B555-8D4E621D566D}</value>
+      <value type="string" key="currentView" option="ref">{75DB3D28-8C14-497C-9BB9-DDFD6AB12ADD}</value>
+      <value type="list" content-type="dict" content-struct-name="model.Marker" key="markers">
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{AD9BE74A-D176-422D-B35A-C24AD6408389}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{74DAC2A4-162F-4E9D-BBE6-96B769FE1F0D}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">0.750000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{1EA30A21-621D-45F3-985F-77A2AE77D14F}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{75DB3D28-8C14-497C-9BB9-DDFD6AB12ADD}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">0.750000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{4C4094DC-73C5-4F26-A1B6-47E8295B14D8}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{75DB3D28-8C14-497C-9BB9-DDFD6AB12ADD}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">0.750000</value>
+        </value>
+      </value>
+      <value type="list" content-type="dict" content-struct-name="model.View" key="views">
+        <value type="dict" struct-name="db.workbench.View">
+          <value type="string" key="_id">{75DB3D28-8C14-497C-9BB9-DDFD6AB12ADD}</value>
+          <value type="string" key="description"></value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="elements">
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{22FA5CBB-1CE2-4034-B677-669080A415DB}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">0</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+              <value type="real" key="left">198.666687</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">album</value>
+              <value type="string" key="table" option="ref">{746F5B4F-D6CC-4675-921A-9D604A0D091A}</value>
+              <value type="real" key="top">244.000000</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{2DBBCF40-5500-4085-B2DC-5CE8410A8B3E}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">0</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+              <value type="real" key="left">34.000015</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">artist</value>
+              <value type="string" key="table" option="ref">{A583F736-6F13-48E5-89AD-71A8FE29403A}</value>
+              <value type="real" key="top">40.000008</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{BAADD543-6069-4FDD-A7CB-D426910F092D}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">0</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+              <value type="real" key="left">578.666687</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">played</value>
+              <value type="string" key="table" option="ref">{3539B3F9-E283-4392-8627-2436AE4EDFA5}</value>
+              <value type="real" key="top">768.000000</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{61114304-ACA4-4CC8-99FE-E8A1EE24F622}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">0</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+              <value type="real" key="left">387.333282</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">track</value>
+              <value type="string" key="table" option="ref">{77338269-6915-4B70-9BA1-AE0428329A70}</value>
+              <value type="real" key="top">511.999939</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+          </value>
+          <value type="list" content-type="dict" content-struct-name="model.Layer" key="layers">
+            <value type="dict" struct-name="db.workbench.Layer">
+              <value type="string" key="_id">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+              <value type="string" key="color"></value>
+              <value type="string" key="description"></value>
+              <value type="list" content-type="string" content-struct-name="model.Element" key="elements" option="ref">
+                <value type="string">{22FA5CBB-1CE2-4034-B677-669080A415DB}</value>
+                <value type="string">{2DBBCF40-5500-4085-B2DC-5CE8410A8B3E}</value>
+                <value type="string">{BAADD543-6069-4FDD-A7CB-D426910F092D}</value>
+                <value type="string">{61114304-ACA4-4CC8-99FE-E8A1EE24F622}</value>
+              </value>
+              <value type="int" key="enabled">0</value>
+              <value type="list" content-type="dict" content-struct-name="model.Group" key="groups"/>
+              <value type="real" key="height">0.000000</value>
+              <value type="real" key="left">0.000000</value>
+              <value type="string" key="name">root</value>
+              <value type="string" key="owner" option="ref">{E65AB6CB-5157-4496-B555-8D4E621D566D}</value>
+              <value type="list" content-type="string" content-struct-name="model.Layer" key="subLayers" option="ref"/>
+              <value type="real" key="top">0.000000</value>
+              <value type="int" key="visible">0</value>
+              <value type="real" key="width">0.000000</value>
+            </value>
+          </value>
+          <value type="string" key="name">Main View</value>
+          <value type="string" key="owner" option="ref">{E65AB6CB-5157-4496-B555-8D4E621D566D}</value>
+          <value type="list" content-type="dict" content-struct-name="db.workbench.Relationship" key="relationships"/>
+          <value type="string" key="rootLayer" option="ref">{65EE763B-E789-439E-AD5B-A8346E1446CC}</value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="selection">
+            <value type="dict" struct-name="db.workbench.TableElement" link="{22FA5CBB-1CE2-4034-B677-669080A415DB}"/>
+          </value>
+          <value type="real" key="x">0.000000</value>
+          <value type="real" key="y">0.000000</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+      </value>
+    </value>
+    <value type="string" key="name">Workbench</value>
+    <value type="string" key="rdbms" option="ref">{6D75781B-52CF-4252-9B3D-9F28B75C09F7}</value>
+  </value>
+</data>

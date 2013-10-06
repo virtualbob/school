@@ -1,0 +1,1593 @@
+<?xml version="1.0"?>
+<data>
+  <value type="dict" struct-name="db.workbench.Workbench">
+    <value type="string" key="_id">{401EAAD6-77AB-492F-90C5-39623A5E1666}</value>
+    <value type="dict" struct-name="db.mysql.Catalog" key="catalog">
+      <value type="string" key="_id">{0F0934B4-FDF4-4FE4-A2F6-FB69D86B03BF}</value>
+      <value type="list" content-type="string" content-struct-name="db.CharacterSet" key="characterSets" option="ref">
+        <value type="string">{43903B6E-F2D0-4529-9B67-E0717BF4EF9F}</value>
+        <value type="string">{3AC6FA9A-82A4-4F7A-98B9-1F12CFB202BF}</value>
+        <value type="string">{9D4131DD-68A4-40BC-9D3F-82B4F7FA17B1}</value>
+        <value type="string">{6ABFE754-D874-49FF-AC49-386F49B841AC}</value>
+        <value type="string">{E2E563B6-7240-4D2B-A665-CE22EBD29E9F}</value>
+        <value type="string">{AEFED982-F313-40D4-ABA9-11583190507F}</value>
+        <value type="string">{A4E5546A-E0F8-4601-9DC3-D39C7DE1FD72}</value>
+        <value type="string">{2F780E59-D0CF-4175-8473-C86D73B33ED6}</value>
+        <value type="string">{E986FF81-4A4E-4A5D-B792-8D70F05A1BDE}</value>
+        <value type="string">{41103BE4-2115-4129-A4F3-0EC70E1A7CA6}</value>
+        <value type="string">{9069C68C-56AA-40EA-9C14-1542D5226355}</value>
+        <value type="string">{A9BCA02E-A707-4832-A9A2-61F0A56F25C2}</value>
+        <value type="string">{091F9B2C-FC20-47D4-B7EC-E31EF07828FF}</value>
+        <value type="string">{FECE8C4D-B95C-4D06-B5E5-7C685B512607}</value>
+        <value type="string">{52DEA621-FBB4-4FC5-88C6-936CC3F53579}</value>
+        <value type="string">{FD0CE66F-4075-48FB-AF79-C75453274791}</value>
+        <value type="string">{AF1906F2-20B5-491C-8450-14F730DBECD8}</value>
+        <value type="string">{2BA9756D-C757-4770-B795-B1A4943359EC}</value>
+        <value type="string">{B5603A47-2936-4144-BA74-5D4B6959F47F}</value>
+        <value type="string">{A50D3C42-2BE0-49C7-A751-59ADDC334F01}</value>
+        <value type="string">{38416973-B84F-48DF-A766-01022A48B7CB}</value>
+        <value type="string">{FEDC8872-11CC-47CA-810A-6CCC2FAC6624}</value>
+        <value type="string">{B37E43B5-C83C-49A6-81FD-21424E22A0CC}</value>
+        <value type="string">{69774387-87EB-4929-95F7-666E7081C341}</value>
+        <value type="string">{EFA25F7E-F252-4083-A7E7-0E0B51D2C7A6}</value>
+        <value type="string">{82133B64-E91A-4EAB-96E7-5211E354E818}</value>
+        <value type="string">{3006DAE4-DDE9-4979-B982-8284D885ED2A}</value>
+        <value type="string">{6C8C05CC-8859-4974-B756-497697DB875F}</value>
+        <value type="string">{99441A25-E2A8-4B71-A311-AA46C216D6A9}</value>
+        <value type="string">{B670A3DE-8FD2-4508-A437-4EE82D3F184A}</value>
+        <value type="string">{EF353851-0BAE-450A-8751-D96E58402C08}</value>
+        <value type="string">{25D735B3-3DBA-4EF7-95C9-B94E5A480D40}</value>
+        <value type="string">{F312E41B-8ECF-4B2D-B084-B22186F114AE}</value>
+        <value type="string">{7A92AB4C-BB3F-47B9-BC98-4F55CF8690A3}</value>
+        <value type="string">{3EE67D94-4290-4A37-A0A3-73E2602C2971}</value>
+        <value type="string">{EF2A81A5-CB47-46E3-9FC5-203D7DA8EA10}</value>
+      </value>
+      <value type="string" key="comment"></value>
+      <value type="string" key="defaultCharacterSetName"></value>
+      <value type="string" key="defaultCollationName"></value>
+      <value type="string" key="name">default</value>
+      <value type="string" key="oldName"></value>
+      <value type="string" key="owner" option="ref">{5BA471E2-6F41-4DB1-A5D7-608986AE772C}</value>
+      <value type="list" content-type="dict" content-struct-name="db.mysql.Schema" key="schemata">
+        <value type="dict" struct-name="db.mysql.Schema">
+          <value type="string" key="_id">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+          <value type="string" key="comment"></value>
+          <value type="string" key="defaultCharacterSetName"></value>
+          <value type="string" key="defaultCollationName"></value>
+          <value type="string" key="name">test</value>
+          <value type="string" key="oldName"></value>
+          <value type="string" key="owner" option="ref">{0F0934B4-FDF4-4FE4-A2F6-FB69D86B03BF}</value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.RoutineGroup" key="routineGroups"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Routine" key="routines"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Sequence" key="sequences"/>
+          <value type="string" key="sql">CREATE DATABASE `test`;</value>
+          <value type="string" key="sqlCreate"></value>
+          <value type="string" key="sqlDrop"></value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.StructuredDatatype" key="structuredTypes"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Synonym" key="synonyms"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Table" key="tables">
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{C5945AE0-0884-4896-8140-0F67DC115AA4}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">40</value>
+                  <value type="string" key="name">GivenNames</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                  <value type="int" key="unsigned">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{CEE2BA2B-B818-4151-81F3-2E1285F90C73}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">Surname</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{914F3992-F270-467A-A70D-303B9D86CD61}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Student_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{DDBF7FDD-1134-4E8F-AD46-2C1BB5C79A3F}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">DATE</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">DateOfBirth</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{38A1DFA1-7E60-44ED-93FA-50908A3B85F5}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">YEAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">YearEnrolled</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{D2F2DFBE-09D8-4413-B1D8-582919FAACE1}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Program_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{D043BEE7-ED2E-479D-A9FD-536847006BE9}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{D2F2DFBE-09D8-4413-B1D8-582919FAACE1}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Enrols In</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{DB6B208A-B164-43F5-992F-03E99AA75695}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="string" key="referedTableName">Program</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">Student</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{D414B1F1-2658-483D-AF8E-186D4E0A4641}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{914F3992-F270-467A-A70D-303B9D86CD61}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`Student` (&#13;
+  `GivenNames` CHAR(40) UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Surname` CHAR(45) NULL,&#13;
+  `Student_ID` CHAR(8) NULL,&#13;
+  `DateOfBirth` DATE NULL,&#13;
+  `YearEnrolled` YEAR NULL,&#13;
+  `Program_ID` CHAR(8) NULL,&#13;
+  PRIMARY KEY (`Student_ID`),&#13;
+  CONSTRAINT `Enrols In` FOREIGN KEY `Enrols In` (`Program_ID`)&#13;
+    REFERENCES `test`.`Program` (`Program_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE &#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{C98FAE72-93A2-4CE0-932A-51FECD21E338}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">40</value>
+                  <value type="string" key="name">Name</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                  <value type="int" key="unsigned">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{DB6B208A-B164-43F5-992F-03E99AA75695}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Program_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{06494D91-C6EB-4399-8312-0DB61A9F2355}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">CreditPoints</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{3CAD1B63-33AA-481D-8D06-80A895DFD14D}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">YEAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">YearCommenced</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">Program</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{B625C4F3-AFC1-4139-B728-870BA29566E4}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{DB6B208A-B164-43F5-992F-03E99AA75695}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`Program` (&#13;
+  `Name` CHAR(40) UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Program_ID` CHAR(8) NULL,&#13;
+  `CreditPoints` SMALLINT NULL,&#13;
+  `YearCommenced` YEAR NULL,&#13;
+  PRIMARY KEY (`Program_ID`)&#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{CBB06BE0-0856-493D-A296-3E25318EFD89}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">40</value>
+                  <value type="string" key="name">Name</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                  <value type="int" key="unsigned">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{5C311F25-6B43-4441-88C2-A9281AD36625}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Course_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{9A49324A-1477-44BA-811C-EE7FC922EDF7}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">CreditPoints</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{9E8BCEB1-59A5-4C67-BF25-9B5FAF5725F2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">YEAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">YearCommenced</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">Course</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{CF4CA037-524E-452B-B4DF-203ABD8521A8}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{5C311F25-6B43-4441-88C2-A9281AD36625}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`Course` (&#13;
+  `Name` CHAR(40) UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Course_ID` CHAR(8) NULL,&#13;
+  `CreditPoints` SMALLINT NULL,&#13;
+  `YearCommenced` YEAR NULL,&#13;
+  PRIMARY KEY (`Course_ID`)&#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{CE8E218E-B204-4198-854C-47318188201C}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">YEAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">Year</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                  <value type="int" key="unsigned">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F01FEE1A-C636-40A6-A0BF-777D960C5A7A}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">2</value>
+                  <value type="string" key="name">Semester</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2CF0A492-9FAA-4B60-A6F6-448F559CC80C}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">SMALLINT</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">Mark</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{B98335A2-603F-4042-9D59-88248D987309}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{634E0575-646E-486C-AC66-BBA296C0D049}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">4</value>
+                  <value type="string" key="name">Grade</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{BBE87745-73F2-4FF4-BE92-D03E6762F936}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Student_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{13FB699A-2F56-4849-AB53-45A5EB60D1AB}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Courses_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{56CF903B-BF02-4FAE-84F7-42B7D48A2BA7}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{BBE87745-73F2-4FF4-BE92-D03E6762F936}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Student</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{914F3992-F270-467A-A70D-303B9D86CD61}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="string" key="referedTableName">Student</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{95077F73-9E9F-4A4D-844D-0D7CB4F89F0A}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{13FB699A-2F56-4849-AB53-45A5EB60D1AB}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Studies</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{5C311F25-6B43-4441-88C2-A9281AD36625}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="string" key="referedTableName">Course</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">Attempts</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{E60DE402-C6E8-4B71-9783-203624583C67}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{F01FEE1A-C636-40A6-A0BF-777D960C5A7A}</value>
+                  <value type="string">{CE8E218E-B204-4198-854C-47318188201C}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`Attempts` (&#13;
+  `Year` YEAR UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Semester` CHAR(2) NULL,&#13;
+  `Mark` SMALLINT NULL,&#13;
+  `Grade` CHAR(4) NULL,&#13;
+  `Student_ID` CHAR(8) NULL,&#13;
+  `Courses_ID` CHAR(8) NULL,&#13;
+  PRIMARY KEY (`Semester`, `Year`),&#13;
+  CONSTRAINT `Student` FOREIGN KEY `Student` (`Student_ID`)&#13;
+    REFERENCES `test`.`Student` (`Student_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE ,&#13;
+  CONSTRAINT `Studies` FOREIGN KEY `Studies` (`Courses_ID`)&#13;
+    REFERENCES `test`.`Course` (`Course_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE &#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{C317F288-88BB-431F-B4E5-65E4E61B22FF}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Student_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                  <value type="int" key="unsigned">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{0C26B042-D8BA-4431-BCDF-F4B426F17E30}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Program_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{40D6E778-7B15-49FA-8CEC-E6304345690B}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{C317F288-88BB-431F-B4E5-65E4E61B22FF}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Student_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{914F3992-F270-467A-A70D-303B9D86CD61}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+                  <value type="string" key="referedTableName">Student</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{233AF758-63F0-4BE9-9720-652BA57496F0}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{0C26B042-D8BA-4431-BCDF-F4B426F17E30}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Program_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string"></value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{DB6B208A-B164-43F5-992F-03E99AA75695}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="string" key="referedTableName">Program</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">EnrolsIn</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{D063FACF-E584-40DA-9248-2A7FCAF52CA0}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{229629FC-6236-4420-8C93-752983D49430}</value>
+                  <value type="string">{C317F288-88BB-431F-B4E5-65E4E61B22FF}</value>
+                  <value type="string">{0C26B042-D8BA-4431-BCDF-F4B426F17E30}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{AB8317A6-650E-43E0-9C34-DB2E72C26416}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`EnrolsIn` (&#13;
+  `Student_ID` CHAR(8) UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Program_ID` CHAR(8) NULL,&#13;
+  PRIMARY KEY (`(nil)`, `Student_ID`, `Program_ID`),&#13;
+  CONSTRAINT `Student_ID` FOREIGN KEY `Student_ID` (`Student_ID`)&#13;
+    REFERENCES `test`.`Student` (`Student_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE ,&#13;
+  CONSTRAINT `Program_ID` FOREIGN KEY `Program_ID` (`Program_ID`)&#13;
+    REFERENCES `test`.`Program` (`Program_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE &#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+              <value type="string" key="avgRowLength"></value>
+              <value type="int" key="checksum">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{FD264936-582F-4C05-BEE2-C479F3E5CB23}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">2</value>
+                  <value type="string" key="name">Semester</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{EBC4A795-1123-4A15-A38D-EBB81CA4860E}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">YEAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">UNSIGNED</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">0</value>
+                  <value type="string" key="name">Year</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{15D59FA5-5035-40BF-A182-C443913F1D8C}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Course_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{7641F1FF-E92C-4709-A955-12066C12DF7E}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="characterSetName"></value>
+                  <value type="list" content-type="dict" content-struct-name="db.CheckConstraint" key="checks"/>
+                  <value type="string" key="collationName"></value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeExplicitParams"></value>
+                  <value type="string" key="datatypeName">CHAR</value>
+                  <value type="string" key="defaultValue"></value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">8</value>
+                  <value type="string" key="name">Program_ID</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="int" key="precision">0</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+                  <value type="string" key="structuredDatatype" option="ref"></value>
+                </value>
+              </value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="int" key="delayKeyWrite">0</value>
+              <value type="list" content-type="dict" content-struct-name="db.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{6C387CEA-4E49-4471-A995-5FCA3C1BF211}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{15D59FA5-5035-40BF-A182-C443913F1D8C}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Course</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="list" content-type="string" key="referedColumnNames"/>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{5C311F25-6B43-4441-88C2-A9281AD36625}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+                  <value type="string" key="referedTableName">Course</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+                <value type="dict" struct-name="db.ForeignKey">
+                  <value type="string" key="_id">{918C00CF-CB14-4776-BFAF-9888DE8D517B}</value>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                    <value type="string">{7641F1FF-E92C-4709-A955-12066C12DF7E}</value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="int" key="deferability">0</value>
+                  <value type="string" key="deleteRule"></value>
+                  <value type="string" key="name">Is part of program</value>
+                  <value type="string" key="oldName"></value>
+                  <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+                  <value type="list" content-type="string" key="referedColumnNames"/>
+                  <value type="list" content-type="string" content-struct-name="db.Column" key="referedColumns" option="ref">
+                    <value type="string">{DB6B208A-B164-43F5-992F-03E99AA75695}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+                  <value type="string" key="referedTableName">Program</value>
+                  <value type="string" key="referedTableSchemaName">test</value>
+                  <value type="string" key="updateRule"></value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices"/>
+              <value type="int" key="isSystem">0</value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="maxRows"></value>
+              <value type="string" key="mergeInsert"></value>
+              <value type="string" key="mergeUnion"></value>
+              <value type="string" key="minRows"></value>
+              <value type="string" key="name">Contains</value>
+              <value type="string" key="nextAutoInc"></value>
+              <value type="string" key="oldName"></value>
+              <value type="string" key="owner" option="ref">{3DD506FC-F19E-4042-94C3-F474E76A1495}</value>
+              <value type="string" key="packKeys"></value>
+              <value type="string" key="password"></value>
+              <value type="dict" struct-name="db.mysql.PrimaryKey" key="primaryKey">
+                <value type="string" key="_id">{3EA7E0B7-68AC-4146-BF5A-F716A0A308A8}</value>
+                <value type="list" content-type="string" content-struct-name="db.Column" key="columns" option="ref">
+                  <value type="string">{58D41CD0-80F2-4466-8689-6A1EE2BFF409}</value>
+                </value>
+                <value type="string" key="name">PRIMARY</value>
+                <value type="string" key="owner" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+              </value>
+              <value type="string" key="raidChunkSize"></value>
+              <value type="string" key="raidChunks"></value>
+              <value type="string" key="raidType"></value>
+              <value type="string" key="rowFormat"></value>
+              <value type="string" key="sql">CREATE TABLE `test`.`Contains` (&#13;
+  `Semester` CHAR(2) NULL,&#13;
+  `Year` YEAR UNSIGNED NOT NULL AUTO_INCREMENT,&#13;
+  `Course_ID` CHAR(8) NULL,&#13;
+  `Program_ID` CHAR(8) NULL,&#13;
+  PRIMARY KEY (`(nil)`),&#13;
+  CONSTRAINT `Course` FOREIGN KEY `Course` (`Course_ID`)&#13;
+    REFERENCES `test`.`Course` (`Course_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE ,&#13;
+  CONSTRAINT `Is part of program` FOREIGN KEY `Is part of program` (`Program_ID`)&#13;
+    REFERENCES `test`.`Program` (`Program_ID`)&#13;
+    ON DELETE &#13;
+    ON UPDATE &#13;
+)&#13;
+ENGINE = MyISAM&#13;
+CHARACTER SET latin1 COLLATE latin1_swedish_ci;</value>
+              <value type="string" key="sqlCreate"></value>
+              <value type="string" key="sqlDrop"></value>
+              <value type="string" key="tableDataDir"></value>
+              <value type="string" key="tableEngine">MyISAM</value>
+              <value type="string" key="tableIndexDir"></value>
+              <value type="string" key="temporaryScope"></value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+          </value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.View" key="views"/>
+        </value>
+        <value type="dict" struct-name="db.mysql.Schema">
+          <value type="string" key="_id">{1ABD607E-4EF8-4DE8-9D01-3D5310BC48F9}</value>
+          <value type="string" key="comment"></value>
+          <value type="string" key="defaultCharacterSetName">utf8</value>
+          <value type="string" key="defaultCollationName">general_ci</value>
+          <value type="string" key="name">University</value>
+          <value type="string" key="oldName"></value>
+          <value type="string" key="owner" option="ref">default</value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.RoutineGroup" key="routineGroups"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Routine" key="routines"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Sequence" key="sequences"/>
+          <value type="string" key="sql">CREATE DATABASE `University`&#13;
+  CHARACTER SET utf8 COLLATE general_ci;</value>
+          <value type="string" key="sqlCreate"></value>
+          <value type="string" key="sqlDrop"></value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.StructuredDatatype" key="structuredTypes"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Synonym" key="synonyms"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Table" key="tables"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.View" key="views"/>
+        </value>
+      </value>
+      <value type="list" content-type="string" content-struct-name="db.SimpleDatatype" key="simpleDatatypes" option="ref">
+        <value type="string">{3C75C19F-FCA4-44DE-8881-F477FEA32E62}</value>
+        <value type="string">{B98335A2-603F-4042-9D59-88248D987309}</value>
+        <value type="string">{A5A2A320-DAAD-416E-862C-FAA9AD90DF8C}</value>
+        <value type="string">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+        <value type="string">{B96B522A-48FE-431F-A0B4-D5E1B733FE3F}</value>
+        <value type="string">{BEA67203-20CC-4A53-A4EC-B2F31E84DE1E}</value>
+        <value type="string">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+        <value type="string">{8CB74E5F-921A-4F6E-95C6-3AD94F2BB36F}</value>
+        <value type="string">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+        <value type="string">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+        <value type="string">{4159AB8E-78E7-41E7-AAFD-0DE3766C2935}</value>
+        <value type="string">{CD41C6AA-4BAC-42E8-A4FC-655CAE3534D0}</value>
+        <value type="string">{B965148B-8E5B-46E9-999C-252D92B37B2C}</value>
+        <value type="string">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+        <value type="string">{7874D9C1-0F91-487C-822C-3ABC407452BE}</value>
+        <value type="string">{BFDB5048-852A-4985-8772-5123FB7C23FE}</value>
+        <value type="string">{D2A508F3-9636-400D-816E-68E0A172204C}</value>
+        <value type="string">{6A28850F-C54C-4722-80A0-6187798B35C0}</value>
+        <value type="string">{EBCCD9D0-1497-4EEE-97FC-0C96DB3D2EBE}</value>
+        <value type="string">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+        <value type="string">{9A2399C8-F3EA-4B6C-AAB1-830D3BFF164B}</value>
+        <value type="string">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+        <value type="string">{65642303-376E-4C4A-B200-7E0DFAA47344}</value>
+        <value type="string">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+        <value type="string">{D8A1FD40-794F-464E-8E4A-E14C38D9C924}</value>
+        <value type="string">{DC0345B1-52D4-497C-AFA1-17A00BCAA7FE}</value>
+        <value type="string">{739D4BC4-0188-46BB-84AB-DB97CE01B67F}</value>
+        <value type="string">{50C760E2-97A4-4BB0-ABA5-E0A2D11E683D}</value>
+        <value type="string">{86A060EB-F367-4890-8FFA-00840F281791}</value>
+        <value type="string">{04006513-2EA3-4785-A541-8C25E68E5E0A}</value>
+        <value type="string">{1D1FE4C9-6A0B-423C-A048-8830C430A93E}</value>
+        <value type="string">{E1609E12-9B2A-4EF7-9265-00D6D3BE0026}</value>
+        <value type="string">{855F4FED-94F7-4E28-812C-6882B28571AF}</value>
+        <value type="string">{F496575F-5F75-4825-A059-7DFC75DB3DFD}</value>
+        <value type="string">{D442887A-6402-4873-ADC5-6F875085C0A6}</value>
+        <value type="string">{D8F350D8-9522-478F-9233-28C52E26A067}</value>
+      </value>
+    </value>
+    <value type="dict" struct-name="db.workbench.Model" key="model">
+      <value type="string" key="_id">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+      <value type="string" key="currentView" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+      <value type="list" content-type="dict" content-struct-name="model.Marker" key="markers">
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{13501946-5983-49C7-B5C6-4BB6A22562F0}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{7988256E-6ECA-4626-B295-9D2D7B3FA7E7}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{142566D4-2840-46B7-B3EC-5EA8BB5576AD}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{7988256E-6ECA-4626-B295-9D2D7B3FA7E7}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{21CE5E4F-595B-4CB0-B55B-27752C0C8DFA}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{7988256E-6ECA-4626-B295-9D2D7B3FA7E7}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{933EAF03-6923-4DBE-9919-A6505CE5D76C}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">264</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{3389F846-04FD-44F9-BB25-DB2E8E8E76F9}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{F876921C-4D9A-40B2-B848-F8A54AFA03CE}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{02D3B054-07D3-490C-8973-D35D4E89D613}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{8996A301-A674-445E-9B18-14ECF550BFFF}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{89374D84-1181-4B10-ACF5-638359499DAA}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">264</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{ECCDC3BA-A12F-4F25-A22C-7417DB1E4E43}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">264</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{CB624A44-F0B1-4F32-9D97-BDD1A980EAD5}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{008314A7-3671-4F6C-AE3E-2B8DFAA22515}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{1BC0A7D8-86CA-4EA5-AC0B-4262819838D3}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{B2A7F3EA-1AE1-485E-93AA-DD5A7B6760FF}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+      </value>
+      <value type="list" content-type="dict" content-struct-name="model.View" key="views">
+        <value type="dict" struct-name="db.workbench.View">
+          <value type="string" key="_id">{038796DB-03F1-4CD4-AC56-92A6A588E24F}</value>
+          <value type="string" key="description"></value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="elements">
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{310F74A3-4F1A-4240-A128-CD8DC098A019}</value>
+              <value type="string" key="color">blue</value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="real" key="left">167.000000</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">table_01</value>
+              <value type="string" key="table" option="ref">{B7907FF7-FF40-499E-82C2-7ECBB134809F}</value>
+              <value type="real" key="top">85.666672</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{B39CA9AA-B356-47EF-A005-B7693BA499FE}</value>
+              <value type="string" key="color">blue</value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="real" key="left">539.666748</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">table_02</value>
+              <value type="string" key="table" option="ref">{4F94E45B-5DF1-46CF-85DD-E6514B2B067B}</value>
+              <value type="real" key="top">83.999992</value>
+              <value type="int" key="triggersExpanded">0</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{ABF10FA0-508A-46E4-B360-E9321B1A8048}</value>
+              <value type="string" key="color">blue</value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="real" key="left">392.333344</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">table_03</value>
+              <value type="string" key="table" option="ref">{792FED70-6342-4630-8EFA-C10452F2B180}</value>
+              <value type="real" key="top">635.666626</value>
+              <value type="int" key="triggersExpanded">0</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{2C3129E9-0548-4417-B09D-D444BA96DBD3}</value>
+              <value type="string" key="color">blue</value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="real" key="left">33.666656</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">table_04</value>
+              <value type="string" key="table" option="ref">{DD8C36B7-B082-489E-AB65-7C605842E9AD}</value>
+              <value type="real" key="top">637.666626</value>
+              <value type="int" key="triggersExpanded">0</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{37D450F7-97CA-4D04-B340-3F6D8754EAF8}</value>
+              <value type="string" key="color">blue</value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">1</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">0.000000</value>
+              <value type="int" key="indicesExpanded">1</value>
+              <value type="string" key="layer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="real" key="left">704.333313</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">table_01</value>
+              <value type="string" key="table" option="ref">{07C9D2D6-98F3-402A-9B73-12B077CF34B5}</value>
+              <value type="real" key="top">632.666687</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+          </value>
+          <value type="list" content-type="dict" content-struct-name="model.Layer" key="layers">
+            <value type="dict" struct-name="db.workbench.Layer">
+              <value type="string" key="_id">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+              <value type="string" key="color"></value>
+              <value type="string" key="description"></value>
+              <value type="list" content-type="string" content-struct-name="model.Element" key="elements" option="ref">
+                <value type="string">{310F74A3-4F1A-4240-A128-CD8DC098A019}</value>
+                <value type="string">{B39CA9AA-B356-47EF-A005-B7693BA499FE}</value>
+                <value type="string">{ABF10FA0-508A-46E4-B360-E9321B1A8048}</value>
+                <value type="string">{2C3129E9-0548-4417-B09D-D444BA96DBD3}</value>
+                <value type="string">{37D450F7-97CA-4D04-B340-3F6D8754EAF8}</value>
+              </value>
+              <value type="int" key="enabled">0</value>
+              <value type="list" content-type="dict" content-struct-name="model.Group" key="groups"/>
+              <value type="real" key="height">0.000000</value>
+              <value type="real" key="left">0.000000</value>
+              <value type="string" key="name">root</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="list" content-type="string" content-struct-name="model.Layer" key="subLayers" option="ref"/>
+              <value type="real" key="top">0.000000</value>
+              <value type="int" key="visible">0</value>
+              <value type="real" key="width">0.000000</value>
+            </value>
+          </value>
+          <value type="string" key="name">Main View</value>
+          <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+          <value type="list" content-type="dict" content-struct-name="db.workbench.Relationship" key="relationships">
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{CD3F9719-C1CC-4BF1-8405-77AADD6081D3}</value>
+              <value type="string" key="caption">Program</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">0.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{B39CA9AA-B356-47EF-A005-B7693BA499FE}</value>
+              <value type="string" key="name">table_01_table_02</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{310F74A3-4F1A-4240-A128-CD8DC098A019}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{481BFEBC-A44B-4397-9ED7-CBD7A1076260}</value>
+              <value type="string" key="caption">Student_ID</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">0.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{310F74A3-4F1A-4240-A128-CD8DC098A019}</value>
+              <value type="string" key="name">table_04_table_01</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{2C3129E9-0548-4417-B09D-D444BA96DBD3}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{F771913C-CE29-4EA6-A54F-66CA2EFDBDF1}</value>
+              <value type="string" key="caption">Course_ID</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">0.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{ABF10FA0-508A-46E4-B360-E9321B1A8048}</value>
+              <value type="string" key="name">table_04_table_03</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{2C3129E9-0548-4417-B09D-D444BA96DBD3}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{D8C8FC46-CB59-4686-A9A5-407AFCA5430B}</value>
+              <value type="string" key="caption">Course_ID</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">0.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{ABF10FA0-508A-46E4-B360-E9321B1A8048}</value>
+              <value type="string" key="name">table_01_table_03</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{37D450F7-97CA-4D04-B340-3F6D8754EAF8}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{A6AD0837-F7AA-406A-8C7E-A5122A63C61C}</value>
+              <value type="string" key="caption">Program_ID</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">0.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{B39CA9AA-B356-47EF-A005-B7693BA499FE}</value>
+              <value type="string" key="name">table_01_table_02</value>
+              <value type="string" key="owner" option="ref">{D6FA9A7F-9AF1-4795-A4AF-F6E68A3700A8}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{37D450F7-97CA-4D04-B340-3F6D8754EAF8}</value>
+            </value>
+          </value>
+          <value type="string" key="rootLayer" option="ref">{47E9C2FA-D2E3-4A42-9080-FC4E0A4F2692}</value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="selection"/>
+          <value type="real" key="x">0.000000</value>
+          <value type="real" key="y">0.000000</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+      </value>
+    </value>
+    <value type="string" key="name">Workbench</value>
+    <value type="string" key="rdbms" option="ref">{6D75781B-52CF-4252-9B3D-9F28B75C09F7}</value>
+  </value>
+</data>
